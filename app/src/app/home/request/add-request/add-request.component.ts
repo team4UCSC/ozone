@@ -33,7 +33,7 @@ export class AddRequestComponent implements OnInit, AfterViewInit {
   studentIDNotFound = false;
   success = false;
 
-  error = '';
+  
 
   requestForm: FormGroup;
   maxDate: Date = new Date();
